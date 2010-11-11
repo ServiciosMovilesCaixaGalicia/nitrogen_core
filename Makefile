@@ -1,5 +1,5 @@
 compile:
-	@./rebar compile
+	@erl -pa ./ebin -make
 
 clean:
-	@./rebar clean
+	@rm -rf ebin/*.beam
